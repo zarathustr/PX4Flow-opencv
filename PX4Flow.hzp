@@ -1,0 +1,297 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="PX4Flow" target="8" version="2">
+  <project Name="PX4Flow">
+    <configuration
+      Family="STM32"
+      Name="Common"
+      Placement="Flash"
+      STLport="Yes with IOStream support"
+      Target="STM32F407VG"
+      arm_architecture="v7EM"
+      arm_core_type="Cortex-M4"
+      arm_fp_abi="Hard"
+      arm_fpu_type="FPv4-SP-D16"
+      arm_library_architecture="v7EM"
+      arm_library_check_memory_segment_overflow="Yes"
+      arm_library_optimization="Fast"
+      arm_linker_additional_output_file_gap_fill=""
+      arm_linker_emit_relocations="No"
+      arm_linker_gap_fill=""
+      arm_linker_heap_size="75000"
+      arm_linker_jtag_pad_pre_dr="1"
+      arm_linker_jtag_pad_pre_ir="5"
+      arm_linker_process_stack_size="256"
+      arm_linker_stack_size="20000"
+      arm_linker_treat_warnings_as_errors="No"
+      arm_simulator_memory_simulation_filename="$(TargetsDir)/STM32/STM32SimulatorMemory$(HostDLL)"
+      arm_simulator_memory_simulation_parameter="STM32F407VG;0x100000;0x20000"
+      arm_target_connect_with_reset="No"
+      arm_target_debug_interface_type="ADIv5"
+      arm_target_interface_type="SWD"
+      arm_target_loader_applicable_loaders="Flash"
+      arm_target_loader_default_loader="Flash"
+      arm_target_read_only_software_breakpoints="Dynamic"
+      arm_target_restrict_memory_accesses="Yes"
+      arm_use_gcc_libraries="Yes"
+      c_only_additional_options=""
+      c_preprocessor_definitions="NO_PRINT_TODOS;__PX4_BAREMETAL;CONFIG_ARCH_BOARD_PX4FLOW_V1;STM32F4XX"
+      c_user_include_directories="./Flow-new/src/drivers/bootloaders/include/;./Flow-new/src/platforms/;./Flow-new/src/include/;./Flow-new/inc/;./Flow-new/src/modules/libc/syslog/;./Flow-new/src/modules/libc/;./Flow-new/mavlink/include/mavlink/v1.0/;./Flow-new/mavlink/include/mavlink/v1.0/common/;./Flow-new/src/lib/stm32/st/v1.0.2/;./Flow-new/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/inc;./Flow-new/src/lib/stm32/st/v1.0.2/STM32_USB_Device_Library/Class/cdc/inc;./Flow-new/src/lib/stm32/st/v1.0.2/STM32_USB_Device_Library/Core/inc;./Flow-new/src/lib/stm32/st/v1.0.2/STM32_USB_HOST_Library/Core/inc;./Flow-new/src/lib/stm32/st/v1.0.2/STM32_USB_OTG_Driver/inc;./cpp;./opencv/include;./harris;./opencv/modules/core/include;./opencv/modules/imgproc/include;./opencv/modules/features2d/include;./opencv/modules/objdetect/include;./opencv/modules/contrib/include;./opencv/modules/flann/include"
+      cpp_enable_exceptions="Yes"
+      cpp_enable_rtti="Yes"
+      cpp_only_additional_options=""
+      debug_entry_point_symbol="reset_handler"
+      debug_initial_breakpoint="reset_handler"
+      debug_register_definition_file="$(TargetsDir)/STM32/STM32F407_Peripherals.xml"
+      debug_start_from_entry_point_symbol="Yes"
+      debug_type_file="$(StudioDir)/bin/STLport.xml"
+      default_vector_section=".isr_vector"
+      gcc_cplusplus_language_standard="gnu++11"
+      gcc_debugging_level="Level 3"
+      gcc_entry_point="reset_handler"
+      gcc_optimization_level="Level 3"
+      gcc_wchar_size="16-Bit"
+      link_include_standard_libraries="Yes"
+      linker_additional_files=""
+      linker_additional_options=""
+      linker_memory_map_file="$(TargetsDir)/STM32/STM32F407VG_MemoryMap.xml"
+      linker_output_format="bin"
+      linker_section_placement_file="./flash_placement.xml"
+      macros="DeviceVectorsFile=STM32F407xx.vec"
+      project_can_build_in_parallel="Yes"
+      project_directory=""
+      project_type="Executable"
+      property_groups_file_path="$(TargetsDir)/STM32/propertyGroups.xml"
+      target_get_partname_script=""
+      target_match_partname_script=""
+      target_reset_script="Reset()"
+      target_script_file="$(ProjectDir)/STM32_Target_2.js"
+      target_trace_initialize_script="EnableTrace(&quot;$(TraceInterfaceType)&quot;)" />
+    <configuration
+      Name="Flash"
+      arm_target_flash_loader_file_path="$(LOADER:$(TargetsDir)/STM32/Release/STM32F2xx_Loader_rpc.elf)"
+      arm_target_loader_can_erase_all="Yes"
+      arm_target_loader_can_lock_all="No"
+      arm_target_loader_can_lock_range="No"
+      arm_target_loader_can_unlock_all="No"
+      arm_target_loader_can_unlock_range="No"
+      target_reset_script="FLASHReset()" />
+    <configuration Name="RAM" target_reset_script="Reset()" />
+    <file file_name="Flow-new/Build/px4flow-v1_default.build/empty.c" />
+    <folder Name="px4flow-v1">
+      <file file_name="Flow-new/src/drivers/bootloaders/src/common/boot_app_shared.c" />
+      <file file_name="Flow-new/src/drivers/bootloaders/src/util/crc.c" />
+      <file file_name="Flow-new/src/drivers/boards/px4flow-v1/px4flow_init.c" />
+      <configuration Name="Common" c_user_include_directories="" />
+    </folder>
+    <folder Name="flow">
+      <file file_name="Flow-new/src/modules/flow/communication.c" />
+      <file file_name="Flow-new/src/modules/flow/dcmi.c" />
+      <file file_name="Flow-new/src/modules/flow/debug.c">
+        <configuration Name="Common" build_exclude_from_build="No" />
+      </file>
+      <file file_name="Flow-new/src/modules/flow/flow.c" />
+      <file file_name="Flow-new/src/modules/flow/gyro.c" />
+      <file file_name="Flow-new/src/modules/flow/i2c.c" />
+      <file file_name="Flow-new/src/modules/flow/led.c" />
+      <file file_name="Flow-new/src/modules/flow/main.c" />
+      <file file_name="Flow-new/src/modules/flow/mt9v034.c" />
+      <file file_name="Flow-new/src/modules/flow/reset.c" />
+      <file file_name="Flow-new/src/modules/flow/settings.c" />
+      <file file_name="Flow-new/src/modules/flow/sonar_mode_filter.c" />
+      <file file_name="Flow-new/src/modules/flow/sonar.c" />
+      <file file_name="Flow-new/src/modules/flow/stm32f4xx_it.c" />
+      <file file_name="Flow-new/src/modules/flow/system_stm32f4xx.c" />
+      <file file_name="Flow-new/src/modules/flow/usart.c" />
+      <file file_name="Flow-new/src/modules/flow/usb_bsp.c" />
+      <file file_name="Flow-new/src/modules/flow/usbd_cdc_vcp.c" />
+      <file file_name="Flow-new/src/modules/flow/usbd_desc.c" />
+      <file file_name="Flow-new/src/modules/flow/usbd_usr.c" />
+      <file file_name="Flow-new/src/modules/flow/utils.c" />
+    </folder>
+    <folder Name="std lib">
+      <file file_name="Flow-new/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/misc.c" />
+      <file file_name="Flow-new/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c" />
+      <file file_name="Flow-new/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c" />
+      <file file_name="Flow-new/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c" />
+      <file file_name="Flow-new/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c" />
+      <file file_name="Flow-new/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c" />
+      <file file_name="Flow-new/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c" />
+      <file file_name="Flow-new/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c" />
+      <file file_name="Flow-new/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c" />
+      <file file_name="Flow-new/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c" />
+      <file file_name="Flow-new/src/lib/stm32/st/v1.0.2/startup_stm32f4xx.s">
+        <configuration Name="Common" build_exclude_from_build="Yes" />
+      </file>
+      <configuration Name="Common" build_exclude_from_build="No" />
+      <file file_name="Flow-new/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c" />
+    </folder>
+    <folder Name="usb lib">
+      <file file_name="Flow-new/src/lib/stm32/st/v1.0.2/STM32_USB_OTG_Driver/src/usb_core.c" />
+      <file file_name="Flow-new/src/lib/stm32/st/v1.0.2/STM32_USB_OTG_Driver/src/usb_dcd_int.c" />
+      <file file_name="Flow-new/src/lib/stm32/st/v1.0.2/STM32_USB_OTG_Driver/src/usb_dcd.c" />
+      <file file_name="Flow-new/src/lib/stm32/st/v1.0.2/STM32_USB_Device_Library/Core/src/usbd_core.c" />
+      <file file_name="Flow-new/src/lib/stm32/st/v1.0.2/STM32_USB_Device_Library/Core/src/usbd_ioreq.c" />
+      <file file_name="Flow-new/src/lib/stm32/st/v1.0.2/STM32_USB_Device_Library/Core/src/usbd_req.c" />
+      <file file_name="Flow-new/src/lib/stm32/st/v1.0.2/STM32_USB_Device_Library/Class/cdc/src/usbd_cdc_core.c" />
+    </folder>
+    <folder Name="libc">
+      <file file_name="Flow-new/src/modules/libc/init.c" />
+      <file file_name="Flow-new/src/modules/libc/stdio/lib_printf.c" />
+      <file file_name="Flow-new/src/modules/libc/string/lib_isbasedigit.c" />
+      <file file_name="Flow-new/src/modules/libc/string/lib_memcpy.c" />
+      <file file_name="Flow-new/src/modules/libc/string/lib_memset.c" />
+      <file file_name="Flow-new/src/modules/libc/string/lib_skipspace.c" />
+      <file file_name="Flow-new/src/modules/libc/string/lib_strcmp.c" />
+      <file file_name="Flow-new/src/modules/libc/string/lib_strcpy.c" />
+      <file file_name="Flow-new/src/modules/libc/string/lib_strlen.c" />
+      <file file_name="Flow-new/src/modules/libc/string/lib_strncat.c" />
+      <file file_name="Flow-new/src/modules/libc/string/lib_strncmp.c" />
+      <file file_name="Flow-new/src/modules/libc/string/lib_strncpy.c" />
+      <file file_name="Flow-new/src/modules/libc/stdlib/lib_checkbase.c" />
+      <file file_name="Flow-new/src/modules/libc/stdlib/lib_strtol.c" />
+      <file file_name="Flow-new/src/modules/libc/stdlib/lib_strtoul.c" />
+      <configuration
+        Name="Common"
+        build_exclude_from_build="Yes"
+        c_preprocessor_definitions="HAVE_INITFINI_ARRAY" />
+    </folder>
+    <folder Name="common">
+      <file file_name="Flow-new/src/platforms/common/px4_log.c" />
+    </folder>
+    <file file_name="STM32_Startup.s">
+      <configuration Name="Common" build_exclude_from_build="No" />
+    </file>
+    <file file_name="STM32F407xx.vec">
+      <configuration Name="Common" build_exclude_from_build="No" />
+    </file>
+    <file file_name="thumb_crt0.s">
+      <configuration Name="Common" build_exclude_from_build="No" />
+    </file>
+    <folder Name="cpp">
+      <file file_name="cpp/eig3D.cpp" />
+      <file file_name="cpp/FA3R.cpp" />
+      <file file_name="cpp/Umeyama.cpp" />
+      <file file_name="cpp/micros.c" />
+      <file file_name="cpp/test.cpp" />
+    </folder>
+    <folder Name="opencv">
+      <folder Name="contrib" />
+      <folder Name="core">
+        <file file_name="opencv/modules/core/src/algorithm.cpp" />
+        <file file_name="opencv/modules/core/src/alloc.cpp" />
+        <file file_name="opencv/modules/core/src/arithm.cpp" />
+        <file file_name="opencv/modules/core/src/array.cpp" />
+        <file file_name="opencv/modules/core/src/cmdparser.cpp" />
+        <file file_name="opencv/modules/core/src/convert.cpp" />
+        <file file_name="opencv/modules/core/src/copy.cpp" />
+        <file file_name="opencv/modules/core/src/datastructs.cpp" />
+        <file file_name="opencv/modules/core/src/dxt.cpp" />
+        <file file_name="opencv/modules/core/src/gl_core_3_1.cpp">
+          <configuration Name="Common" build_exclude_from_build="Yes" />
+        </file>
+        <file file_name="opencv/modules/core/src/gl_core_3_1.hpp">
+          <configuration Name="Common" build_exclude_from_build="Yes" />
+        </file>
+        <file file_name="opencv/modules/core/src/mathfuncs.cpp" />
+        <file file_name="opencv/modules/core/src/matmul.cpp" />
+        <file file_name="opencv/modules/core/src/matop.cpp" />
+        <file file_name="opencv/modules/core/src/matrix.cpp" />
+        <file file_name="opencv/modules/core/src/out.cpp" />
+        <file file_name="opencv/modules/core/src/parallel.cpp" />
+        <file file_name="opencv/modules/core/src/precomp.hpp" />
+        <file file_name="opencv/modules/core/src/rand.cpp">
+          <configuration Name="Common" build_exclude_from_build="Yes" />
+        </file>
+        <file file_name="opencv/modules/core/src/stat.cpp" />
+        <file file_name="opencv/modules/core/src/system.cpp">
+          <configuration Name="Common" build_exclude_from_build="Yes" />
+        </file>
+        <file file_name="opencv/modules/core/include/opencv2/core.hpp" />
+        <file file_name="opencv/modules/core/src/tables_core.cpp" />
+      </folder>
+      <folder Name="features2d">
+        <file file_name="opencv/modules/features2d/src/bagofwords.cpp" />
+        <file file_name="opencv/modules/features2d/src/blobdetector.cpp" />
+        <file file_name="opencv/modules/features2d/src/brief.cpp" />
+        <file file_name="opencv/modules/features2d/src/brisk.cpp" />
+        <file file_name="opencv/modules/features2d/src/descriptors.cpp" />
+        <file file_name="opencv/modules/features2d/src/detectors.cpp" />
+        <file file_name="opencv/modules/features2d/src/draw.cpp" />
+        <file file_name="opencv/modules/features2d/src/dynamic.cpp" />
+        <file file_name="opencv/modules/features2d/src/evaluation.cpp" />
+        <file file_name="opencv/modules/features2d/src/fast_score.cpp" />
+        <file file_name="opencv/modules/features2d/src/fast_score.hpp" />
+        <file file_name="opencv/modules/features2d/src/fast.cpp" />
+        <file file_name="opencv/modules/features2d/src/features2d_init.cpp" />
+        <file file_name="opencv/modules/features2d/src/freak.cpp" />
+        <file file_name="opencv/modules/features2d/src/keypoint.cpp" />
+        <file file_name="opencv/modules/features2d/src/matchers.cpp" />
+        <file file_name="opencv/modules/features2d/src/mser.cpp" />
+        <file file_name="opencv/modules/features2d/src/orb.cpp" />
+        <file file_name="opencv/modules/features2d/src/precomp.hpp" />
+        <file file_name="opencv/modules/features2d/src/stardetector.cpp" />
+      </folder>
+      <folder Name="imgproc">
+        <file file_name="opencv/modules/imgproc/src/accum.cpp" />
+        <file file_name="opencv/modules/imgproc/src/approx.cpp" />
+        <file file_name="opencv/modules/imgproc/src/canny.cpp" />
+        <file file_name="opencv/modules/imgproc/src/clahe.cpp" />
+        <file file_name="opencv/modules/imgproc/src/color.cpp" />
+        <file file_name="opencv/modules/imgproc/src/contours.cpp" />
+        <file file_name="opencv/modules/imgproc/src/convhull.cpp" />
+        <file file_name="opencv/modules/imgproc/src/corner.cpp" />
+        <file file_name="opencv/modules/imgproc/src/cornersubpix.cpp" />
+        <file file_name="opencv/modules/imgproc/src/deriv.cpp" />
+        <file file_name="opencv/modules/imgproc/src/distransform.cpp" />
+        <file file_name="opencv/modules/imgproc/src/emd.cpp" />
+        <file file_name="opencv/modules/imgproc/src/featureselect.cpp" />
+        <file file_name="opencv/modules/imgproc/src/filter.cpp" />
+        <file file_name="opencv/modules/imgproc/src/floodfill.cpp" />
+        <file file_name="opencv/modules/imgproc/src/gabor.cpp" />
+        <file file_name="opencv/modules/imgproc/src/gcgraph.hpp" />
+        <file file_name="opencv/modules/imgproc/src/generalized_hough.cpp" />
+        <file file_name="opencv/modules/imgproc/src/geometry.cpp" />
+        <file file_name="opencv/modules/imgproc/src/grabcut.cpp" />
+        <file file_name="opencv/modules/imgproc/src/histogram.cpp" />
+        <file file_name="opencv/modules/imgproc/src/hough.cpp" />
+        <file file_name="opencv/modules/imgproc/src/imgwarp.cpp" />
+        <file file_name="opencv/modules/imgproc/src/linefit.cpp" />
+        <file file_name="opencv/modules/imgproc/src/matchcontours.cpp" />
+        <file file_name="opencv/modules/imgproc/src/moments.cpp" />
+        <file file_name="opencv/modules/imgproc/src/morph.cpp" />
+        <file file_name="opencv/modules/imgproc/src/phasecorr.cpp" />
+        <file file_name="opencv/modules/imgproc/src/precomp.hpp" />
+        <file file_name="opencv/modules/imgproc/src/pyramids.cpp" />
+        <file file_name="opencv/modules/imgproc/src/rotcalipers.cpp" />
+        <file file_name="opencv/modules/imgproc/src/samplers.cpp" />
+        <file file_name="opencv/modules/imgproc/src/segmentation.cpp" />
+        <file file_name="opencv/modules/imgproc/src/shapedescr.cpp" />
+        <file file_name="opencv/modules/imgproc/src/smooth.cpp" />
+        <file file_name="opencv/modules/imgproc/src/subdivision2d.cpp" />
+        <file file_name="opencv/modules/imgproc/src/sumpixels.cpp" />
+        <file file_name="opencv/modules/imgproc/src/templmatch.cpp" />
+        <file file_name="opencv/modules/imgproc/src/thresh.cpp" />
+        <file file_name="opencv/modules/imgproc/src/undistort.cpp" />
+        <file file_name="opencv/modules/imgproc/src/tables_imgproc.cpp" />
+        <file file_name="opencv/modules/imgproc/src/utils_imgproc.cpp" />
+      </folder>
+    </folder>
+    <folder Name="harris">
+      <file file_name="harris/harris.cpp" />
+      <file file_name="harris/harris.h" />
+      <file file_name="harris/util.cpp" />
+      <file file_name="harris/util.h" />
+      <configuration Name="Common" build_exclude_from_build="No" />
+    </folder>
+  </project>
+  <configuration
+    Name="Common"
+    arm_linker_additional_output_file_gap_fill=""
+    arm_linker_emit_relocations="No"
+    arm_use_gcc_libraries="No"
+    gcc_entry_point=""
+    link_include_standard_libraries="No"
+    linker_additional_options=""
+    linker_output_format="bin"
+    linker_section_placement_file="" />
+</solution>

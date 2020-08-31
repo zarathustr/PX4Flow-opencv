@@ -1,0 +1,850 @@
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_macro   0x0000000000000000      0x8aa ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_macro   0x0000000000000000       0x22 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_macro   0x0000000000000000       0x1c ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_macro   0x0000000000000000       0x22 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_macro   0x0000000000000000       0x87 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_macro   0x0000000000000000       0x44 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_macro   0x0000000000000000       0xfd ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_macro   0x0000000000000000       0x5e ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_macro   0x0000000000000000      0x1df ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_macro   0x0000000000000000       0x52 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_macro   0x0000000000000000       0x2e ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_macro   0x0000000000000000       0x9c ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_macro   0x0000000000000000       0x52 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_macro   0x0000000000000000       0x1f ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_macro   0x0000000000000000       0x43 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_macro   0x0000000000000000       0x20 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_macro   0x0000000000000000      0x187 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_macro   0x0000000000000000      0x330 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_macro   0x0000000000000000       0x10 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_macro   0x0000000000000000      0x331 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_macro   0x0000000000000000       0xcf ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/util/crc.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/util/crc.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/util/crc.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/util/crc.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/util/crc.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/util/crc.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/util/crc.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/util/crc.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/util/crc.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/util/crc.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/util/crc.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/util/crc.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/util/crc.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/util/crc.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/util/crc.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/util/crc.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/util/crc.c.o
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/util/crc.c.o
+ .debug_macro   0x0000000000000000      0x8aa ../../../drivers/bootloaders/src/util/crc.c.o
+ .debug_macro   0x0000000000000000       0x22 ../../../drivers/bootloaders/src/util/crc.c.o
+ .debug_macro   0x0000000000000000       0x22 ../../../drivers/bootloaders/src/util/crc.c.o
+ .debug_macro   0x0000000000000000       0x87 ../../../drivers/bootloaders/src/util/crc.c.o
+ .debug_macro   0x0000000000000000       0x44 ../../../drivers/bootloaders/src/util/crc.c.o
+ .debug_macro   0x0000000000000000       0xfd ../../../drivers/bootloaders/src/util/crc.c.o
+ .debug_macro   0x0000000000000000       0x5e ../../../drivers/bootloaders/src/util/crc.c.o
+ .debug_macro   0x0000000000000000      0x1df ../../../drivers/bootloaders/src/util/crc.c.o
+ .debug_macro   0x0000000000000000       0x52 ../../../drivers/bootloaders/src/util/crc.c.o
+ .debug_macro   0x0000000000000000       0x2e ../../../drivers/bootloaders/src/util/crc.c.o
+ .debug_macro   0x0000000000000000       0x9c ../../../drivers/bootloaders/src/util/crc.c.o
+ .debug_macro   0x0000000000000000       0x52 ../../../drivers/bootloaders/src/util/crc.c.o
+ .debug_macro   0x0000000000000000       0x1f ../../../drivers/bootloaders/src/util/crc.c.o
+ .debug_macro   0x0000000000000000       0x43 ../../../drivers/bootloaders/src/util/crc.c.o
+ .debug_macro   0x0000000000000000       0x20 ../../../drivers/bootloaders/src/util/crc.c.o
+ .debug_macro   0x0000000000000000      0x187 ../../../drivers/bootloaders/src/util/crc.c.o
+ .debug_macro   0x0000000000000000      0x330 ../../../drivers/bootloaders/src/util/crc.c.o
+ .debug_macro   0x0000000000000000       0x1c ../../../drivers/bootloaders/src/util/crc.c.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD px4flow_init.c.o
+LOAD ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+LOAD ../../../drivers/bootloaders/src/util/crc.c.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(SORT(.init))
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x0000000000000000        0x0
+ *(.text .stub)
+ .text          0x0000000000000000        0x0 px4flow_init.c.o
+ .text          0x0000000000000000        0x0 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .text          0x0000000000000000        0x0 ../../../drivers/bootloaders/src/util/crc.c.o
+ *(.gnu.warning)
+
+.text.board_initialize
+                0x0000000000000000        0x2
+ .text.board_initialize
+                0x0000000000000000        0x2 px4flow_init.c.o
+                0x0000000000000000                board_initialize
+
+.text.board_app_initialize
+                0x0000000000000000        0x4
+ .text.board_app_initialize
+                0x0000000000000000        0x4 px4flow_init.c.o
+                0x0000000000000000                board_app_initialize
+
+.text.board_reset
+                0x0000000000000000        0x4
+ .text.board_reset
+                0x0000000000000000        0x4 px4flow_init.c.o
+                0x0000000000000000                board_reset
+
+.text.board_led_initialize
+                0x0000000000000000        0x2
+ .text.board_led_initialize
+                0x0000000000000000        0x2 px4flow_init.c.o
+                0x0000000000000000                board_led_initialize
+
+.text.board_led_on
+                0x0000000000000000        0x2
+ .text.board_led_on
+                0x0000000000000000        0x2 px4flow_init.c.o
+                0x0000000000000000                board_led_on
+
+.text.board_led_off
+                0x0000000000000000        0x2
+ .text.board_led_off
+                0x0000000000000000        0x2 px4flow_init.c.o
+                0x0000000000000000                board_led_off
+
+.text.board_crashdump
+                0x0000000000000000        0x2
+ .text.board_crashdump
+                0x0000000000000000        0x2 px4flow_init.c.o
+                0x0000000000000000                board_crashdump
+
+.text.calulate_signature
+                0x0000000000000000       0x24
+ .text.calulate_signature
+                0x0000000000000000       0x24 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+
+.text.bootloader_app_shared_read
+                0x0000000000000000       0x7c
+ .text.bootloader_app_shared_read
+                0x0000000000000000       0x7c ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+                0x0000000000000000                bootloader_app_shared_read
+
+.text.bootloader_app_shared_write
+                0x0000000000000000       0x6c
+ .text.bootloader_app_shared_write
+                0x0000000000000000       0x6c ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+                0x0000000000000000                bootloader_app_shared_write
+
+.text.bootloader_app_shared_invalidate
+                0x0000000000000000       0x20
+ .text.bootloader_app_shared_invalidate
+                0x0000000000000000       0x20 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+                0x0000000000000000                bootloader_app_shared_invalidate
+
+.text.crc16_add
+                0x0000000000000000       0x20
+ .text.crc16_add
+                0x0000000000000000       0x20 ../../../drivers/bootloaders/src/util/crc.c.o
+                0x0000000000000000                crc16_add
+
+.text.crc16_signature
+                0x0000000000000000       0x14
+ .text.crc16_signature
+                0x0000000000000000       0x14 ../../../drivers/bootloaders/src/util/crc.c.o
+                0x0000000000000000                crc16_signature
+
+.text.crc64_add_word
+                0x0000000000000000       0x50
+ .text.crc64_add_word
+                0x0000000000000000       0x50 ../../../drivers/bootloaders/src/util/crc.c.o
+                0x0000000000000000                crc64_add_word
+
+.fini
+ *(SORT(.fini))
+
+.rodata
+ *(.rodata)
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x0000000000000000        0x0
+ *(.data)
+ .data          0x0000000000000000        0x0 px4flow_init.c.o
+ .data          0x0000000000000000        0x0 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .data          0x0000000000000000        0x0 ../../../drivers/bootloaders/src/util/crc.c.o
+
+.data1
+ *(.data1)
+
+.bss            0x0000000000000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x0000000000000000        0x0 px4flow_init.c.o
+ .bss           0x0000000000000000        0x0 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .bss           0x0000000000000000        0x0 ../../../drivers/bootloaders/src/util/crc.c.o
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000      0x14d
+ *(.comment)
+ .comment       0x0000000000000000       0x6f px4flow_init.c.o
+ .comment       0x000000000000006f       0x6f ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .comment       0x00000000000000de       0x6f ../../../drivers/bootloaders/src/util/crc.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4flow_init.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/util/crc.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/util/crc.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/util/crc.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/util/crc.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ../../../drivers/bootloaders/src/util/crc.c.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0xa8
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x40 px4flow_init.c.o
+ .debug_aranges
+                0x0000000000000040       0x38 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_aranges
+                0x0000000000000078       0x30 ../../../drivers/bootloaders/src/util/crc.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000      0x97d
+ *(.debug_info)
+ .debug_info    0x0000000000000000      0x189 px4flow_init.c.o
+ .debug_info    0x0000000000000189      0x5e1 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_info    0x000000000000076a      0x213 ../../../drivers/bootloaders/src/util/crc.c.o
+
+.debug_abbrev   0x0000000000000000      0x45e
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x123 px4flow_init.c.o
+ .debug_abbrev  0x0000000000000123      0x263 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_abbrev  0x0000000000000386       0xd8 ../../../drivers/bootloaders/src/util/crc.c.o
+
+.debug_line     0x0000000000000000      0xd50
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x4ad px4flow_init.c.o
+ .debug_line    0x00000000000004ad      0x50a ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_line    0x00000000000009b7      0x399 ../../../drivers/bootloaders/src/util/crc.c.o
+
+.debug_frame    0x0000000000000000      0x15c
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x80 px4flow_init.c.o
+ .debug_frame   0x0000000000000080       0x80 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_frame   0x0000000000000100       0x5c ../../../drivers/bootloaders/src/util/crc.c.o
+
+.debug_str      0x0000000000000000    0x45cf2
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x7ff4 px4flow_init.c.o
+ .debug_str     0x0000000000007ff4    0x37b3c ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_str     0x000000000003fb30     0x61c2 ../../../drivers/bootloaders/src/util/crc.c.o
+
+.debug_loc      0x0000000000000000      0x3c3
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x21 px4flow_init.c.o
+ .debug_loc     0x0000000000000021      0x176 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_loc     0x0000000000000197      0x22c ../../../drivers/bootloaders/src/util/crc.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000       0xb0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x30 px4flow_init.c.o
+ .debug_ranges  0x0000000000000030       0x60 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_ranges  0x0000000000000090       0x20 ../../../drivers/bootloaders/src/util/crc.c.o
+
+.debug_macro    0x0000000000000000      0x532
+ *(.debug_macro)
+ .debug_macro   0x0000000000000000      0x20f px4flow_init.c.o
+ .debug_macro   0x000000000000020f      0x1e9 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .debug_macro   0x00000000000003f8      0x13a ../../../drivers/bootloaders/src/util/crc.c.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x0000000000000000       0x35
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x35 px4flow_init.c.o
+ .ARM.attributes
+                0x0000000000000035       0x35 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+ .ARM.attributes
+                0x000000000000006a       0x35 ../../../drivers/bootloaders/src/util/crc.c.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/Users/zarathustra/Documents/Git/PX4/Flow-new/Build/px4flow-v1_default.build//Users/zarathustra/Documents/Git/PX4/Flow-new/src/drivers/boards/px4flow-v1/module.pre.o elf32-littlearm)
+
+.debug_macro    0x0000000000000000      0x8aa
+ .debug_macro   0x0000000000000000      0x8aa px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x1c
+ .debug_macro   0x0000000000000000       0x1c px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x87
+ .debug_macro   0x0000000000000000       0x87 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x44
+ .debug_macro   0x0000000000000000       0x44 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0xfd
+ .debug_macro   0x0000000000000000       0xfd px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x5e
+ .debug_macro   0x0000000000000000       0x5e px4flow_init.c.o
+
+.debug_macro    0x0000000000000000      0x1df
+ .debug_macro   0x0000000000000000      0x1df px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x52
+ .debug_macro   0x0000000000000000       0x52 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x2e
+ .debug_macro   0x0000000000000000       0x2e px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x9c
+ .debug_macro   0x0000000000000000       0x9c px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x97
+ .debug_macro   0x0000000000000000       0x97 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000      0x330
+ .debug_macro   0x0000000000000000      0x330 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0xf6
+ .debug_macro   0x0000000000000000       0xf6 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x52
+ .debug_macro   0x0000000000000000       0x52 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x1f
+ .debug_macro   0x0000000000000000       0x1f px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x43
+ .debug_macro   0x0000000000000000       0x43 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x20
+ .debug_macro   0x0000000000000000       0x20 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000      0x187
+ .debug_macro   0x0000000000000000      0x187 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x1c
+ .debug_macro   0x0000000000000000       0x1c px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x52
+ .debug_macro   0x0000000000000000       0x52 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x40
+ .debug_macro   0x0000000000000000       0x40 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x40
+ .debug_macro   0x0000000000000000       0x40 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0xd7
+ .debug_macro   0x0000000000000000       0xd7 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000      0x18b
+ .debug_macro   0x0000000000000000      0x18b px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000      0x331
+ .debug_macro   0x0000000000000000      0x331 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x2e
+ .debug_macro   0x0000000000000000       0x2e px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0xcf
+ .debug_macro   0x0000000000000000       0xcf px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x11
+ .debug_macro   0x0000000000000000       0x11 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000       0x46
+ .debug_macro   0x0000000000000000       0x46 px4flow_init.c.o
+
+.debug_macro    0x0000000000000000      0x16d
+ .debug_macro   0x0000000000000000      0x16d ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+
+.debug_macro    0x0000000000000000       0x35
+ .debug_macro   0x0000000000000000       0x35 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+
+.debug_macro    0x0000000000000000       0x1c
+ .debug_macro   0x0000000000000000       0x1c ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+
+.debug_macro    0x0000000000000000       0x1c
+ .debug_macro   0x0000000000000000       0x1c ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+
+.debug_macro    0x0000000000000000       0x63
+ .debug_macro   0x0000000000000000       0x63 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+
+.debug_macro    0x0000000000000000       0x35
+ .debug_macro   0x0000000000000000       0x35 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+
+.debug_macro    0x0000000000000000       0x18
+ .debug_macro   0x0000000000000000       0x18 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+
+.debug_macro    0x0000000000000000       0x42
+ .debug_macro   0x0000000000000000       0x42 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+
+.debug_macro    0x0000000000000000      0x8cb
+ .debug_macro   0x0000000000000000      0x8cb ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+
+.debug_macro    0x0000000000000000     0x8096
+ .debug_macro   0x0000000000000000     0x8096 ../../../drivers/bootloaders/src/common/boot_app_shared.c.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 ../../../drivers/bootloaders/src/util/crc.c.o
+
+.debug_macro    0x0000000000000000      0x10e
+ .debug_macro   0x0000000000000000      0x10e ../../../drivers/bootloaders/src/util/crc.c.o
+
+.debug_macro    0x0000000000000000       0x86
+ .debug_macro   0x0000000000000000       0x86 ../../../drivers/bootloaders/src/util/crc.c.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 ../../../drivers/bootloaders/src/util/crc.c.o
+
+.debug_macro    0x0000000000000000       0x29
+ .debug_macro   0x0000000000000000       0x29 ../../../drivers/bootloaders/src/util/crc.c.o
